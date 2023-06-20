@@ -3,18 +3,15 @@
     background-color: silver;
     margin: 0px auto;
     padding: 20px;
-
 }
 .top-nav {
     height: 150px;
     background-color: green;
-    margin: 10px;
 }
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
-
 }
 .main {
     height: 400px;
@@ -25,16 +22,10 @@
     height: 200px;
     width: 210px;
     background-color: yellow;
-    margin: 10px;
-    display: inline-table;
-}
-.last{
-    display: flex;
-    gap: 10px;
 }
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
-    margin: 10px;
 }
+
