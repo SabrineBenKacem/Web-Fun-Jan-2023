@@ -1,19 +1,21 @@
-.btn-search, .btn-add, .btn-primary {
+
+
+.btn-search {
     display: block;
     margin-bottom: 10px;
     height: 40px;
-}
-
-.btn-search {
     font-weight: 900;
     width: 100px;
     border-radius: 20px;
-    color: #7dc8c8;
-    border: 2px solid #7dc8c8;
-    background-color: #fff;
+    color:#00d1b2;
+    border: 2px solid #63bdbd;
+    background-color: rgb(202, 201, 201);
 }
 
 .btn-add {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
     width: 40px;
     background-color: #00d1b2;
     color: #fff;
@@ -22,6 +24,9 @@
 }
 
 .btn-primary {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
     width: 150px;
     background-color: #2b78e4;
     color: #fff;
