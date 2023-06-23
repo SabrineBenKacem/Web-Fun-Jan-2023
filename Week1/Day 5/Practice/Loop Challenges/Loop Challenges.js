@@ -18,7 +18,8 @@ for (var d = 1; d < 101; d++){
     sum += d
      sum + d
 }
-console.log(Pro);
+console.log(sum);
+
 var Pro = 1
 for (var e= 1; e < 13; e++){
     Pro *= e
