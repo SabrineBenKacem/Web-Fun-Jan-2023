@@ -1,40 +1,29 @@
-.container {
-    width: 950px;
-    background-color: silver;
-    margin: 0px auto;
-    padding: 20px;
-  }
-  .top-nav {
-    height: 150px;
-    background-color: green;
-    margin: 20px;
-  }
-  .side-nav {
-    height: 300px;
-    width: 200px;
-    background-color: blue;
-  }
-  .main {
-    height: 400px;
-    width: 700px;
-    background-color: red;
-    padding: 10px;
-  }
-  .sub-content {
-    height: 200px;
-    width: 210px;
-    background-color: yellow;
-    margin: 10px;
-    display: inline-table;
-  }
-  .last {
-    display: flex;
-    gap: 20px;
-  }
-  
-  #advertisement {
-    height: 120px;
-    width: 660px;
-    background-color: purple;
-    margin: 10px;
-  }
+.btn-search {
+  width: 100px;
+  height: 40px;
+  display: block;
+  background-color: gray;
+  color: aquamarine;
+  border: 1px solid aquamarine;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.btn-add {
+  border-radius: 50%;
+  display: block;
+  color: white;
+  background-color: aquamarine;
+  margin-top: 10px;
+  height: 40px;
+  border: none;
+}
+.btn-primary {
+  color: white;
+  background-color: blue;
+  bottom: 1px solid black;
+  box-shadow: 3px 3px black;
+  width: 150px;
+  height: 60px;
+  margin-top: 10px;
+}
