@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeIt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="wrapper">
+    <!--Start Header-->
+<header class="flex-items">
+    <!--left-header-->
+<div class="left-header flex-items">
+<img src="./images/cat.png" alt="Cat Logo">
+<h1>CodeIt</h1>
+<div>
+<input type="text" placeholder="Search" id="search">
+<button onclick="find()">Go</button>
+</div>
+</div>
+<!--right-header-->
+<div class="right-header flex-items">
+    <button class="get-app">Get App</button>
+    <button class="log-in">Log In</button>
+</div>
+
+</header>
+ <!--End Header-->
+  <!--Start nav-->
+<nav>
+<div class="top-nav  flex-items">
+    <img src="./images/cat.png" alt="Cat Logo">
+    <h2>c/Dojo</h2>
+    <button onclick="remove (this)">Join</button>
+</div>
+<ul class="flex-items">
+    <li > <a class="active"href="#">Posts</a></li>
+    <li> <a href="#">Wiki</a></li>
+    <li><a href="#">c/Dojo</a></li>
+    <li><a href="#">Discord</a></li>
+ 
+</ul>
+</nav>
+ <!--End nav-->
+
+  <!--Start main-->
+<main class="flex-items">
+ <div class="left-main">
+<div class="left-card flex-items">
+    <div class="votes">
+        <img class="arrow" onclick="voteUp('vote-1')" src="./images/up-arrow.png" alt="up-arrow">
+        <h3 id="vote-1">29</h3>
+        <img class="arrow" onclick="voteDown('vote-1')"src="./images/down-arrow.png" alt="down-arrow">
+
+    </div>
+    <div class="project">
+        <h2>Best of Project Week 2022!</h2>
+        <img src="./images/image1.webp" alt="Project">
+        <div class="comments flex-items">
+            <img class="arrow"src="./images/chat.png" alt="chat">
+            <p>42 comments</p>
+            <img class="arrow"src="./images/share.png" alt="share">
+            <p>Share</p>
+
+        </div>
+    </div>
+
+</div>
+<div class="left-card flex-items">
+    <div class="votes">
+        <img class="arrow" onclick="voteUp('vote-2')"src="./images/up-arrow.png" alt="up-arrow">
+        <h3 id="vote-2">17</h3>
+        <img class="arrow"onclick="votedown('vote-2')"src="./images/down-arrow.png" alt="down-arrow">
+
+    </div>
+    <div class="project">
+        <h2>Best of Project Week 2022!</h2>
+        <img src="./images/image1.webp" alt="Project">
+        <div class="comments flex-items">
+            <img class="arrow"src="./images/chat.png" alt="chat">
+            <p>42 comments</p>
+            <img class="arrow"src="./images/share.png" alt="share">
+            <p>Share</p>
+
+        </div>
+    </div>
+
+</div>
+ </div>
+
+ 
+ <div class="right-main">
+    <div class="right-card">
+    <h3>About the Dojo</h3> 
+    <p>Changing Lives with Code and a dedicated community of debuggers!</p>
+    </div>
+    <div class="right-card">
+    <h3>Discord</h3> 
+    <div class="card-content">
+    <button>discord.gg/cddojo</button>
+    </div>
+    </div>
+    <div class="right-card">
+    <h3>c/Dojo</h3> 
+   <ol class="card-content">
+    <li>Lorem ipsum, </li>
+    <li>Lorem ipsum,</li>
+    <li>Lorem ipsum,</li>
+    <li>Lorem ipsum,</li>
+    <li>Lorem ipsum,</li>
+   </ol>
+    </div>
+ </div>
+ </div>    
+</main>
+ <!--End main-->
+
+
+ </div>
+
+
+   <script src="script.js"></script> 
+</body>
+</html>
